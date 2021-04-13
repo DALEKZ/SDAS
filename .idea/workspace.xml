@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="afc1927f-293a-4c0c-8a15-9b36138bce78" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="afc1927f-293a-4c0c-8a15-9b36138bce78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/SDAS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SDAS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_util/stock_base_data_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_util/stock_base_data_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/stock_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/stock_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/sql_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/sql_main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,32 +53,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="JupyterTrust" id="fb72a645-2e2a-45a1-8f65-9e0bd5d41610" />
   <component name="ProjectId" id="1qqPTMIs7S1z7N9FLhUCrS6SQUU" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PycharmProjects\SDAS\sql" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PycharmProjects\SDAS\shenzhen" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\SDAS" />
+      <recent name="E:\PycharmProjects\SDAS\sql" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.stock_base_data_script">
     <configuration name="sql_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -181,18 +191,43 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1618304714370">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618304714370" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1618304714370">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618304714370" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1618304714370">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618304714370" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1618304714370">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618304714370" />
+    <state x="2715" y="221" key="RollbackChangesDialog" timestamp="1618281078003">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2715" y="221" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618281078003" />
+    <state x="2637" y="308" key="git4idea.ui.GitUnstashDialog" timestamp="1618281098734">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2637" y="308" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618281098734" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SDAS$sql_main.coverage" NAME="sql_main Coverage Results" MODIFIED="1618240355465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" />
-    <SUITE FILE_PATH="coverage/SDAS$util.coverage" NAME="util Coverage Results" MODIFIED="1618236828286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SDAS$stock_base_data_script.coverage" NAME="stock_base_data_script Coverage Results" MODIFIED="1618242618724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_util" />
+    <SUITE FILE_PATH="coverage/SDAS$stock_base_data_script.coverage" NAME="stock_base_data_script Coverage Results" MODIFIED="1618302247112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_util" />
+    <SUITE FILE_PATH="coverage/SDAS$util.coverage" NAME="util Coverage Results" MODIFIED="1617805461960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SDAS$stock_info.coverage" NAME="stock_info Coverage Results" MODIFIED="1618236861322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/SDAS$sql_main.coverage" NAME="sql_main Coverage Results" MODIFIED="1618240355465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" />
   </component>
 </project>

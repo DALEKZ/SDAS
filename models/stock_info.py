@@ -1,5 +1,5 @@
 from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Date, DateTime
 
 Base = declarative_base()
 
@@ -28,6 +28,8 @@ class StockBaseInfo(Base):
     exchange = Column(String(50))
     # 公司网页
     com_site = Column(String(50))
+    # 上市日期
+    listing_date = Column(Date())
 
     def __repr__(self):
         return "<StockBaseInfo(code='%s', share_name='%s', exchange='%s')>" % (

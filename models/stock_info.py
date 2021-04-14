@@ -1,5 +1,5 @@
 from sqlalchemy.orm import declarative_base
-from sqlalchemy import Column, Integer, String, Date, DateTime
+from sqlalchemy import Column, Integer, String, Date, Float
 
 Base = declarative_base()
 
@@ -9,7 +9,7 @@ class StockBaseInfo(Base):
     __tablename__ = "share_base_info"
 
     # 主键
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
     # 股票代码
     code = Column(String(50))
     # 公司全称
@@ -35,3 +35,44 @@ class StockBaseInfo(Base):
         return "<StockBaseInfo(code='%s', share_name='%s', exchange='%s')>" % (
             self.code, self.share_name, self.exchange)
 
+    def get_info_by_code(self, code):
+        ...
+
+
+# stock_zh_a_spot
+class StockDataInfo(Base):
+    __table__ = 'stock_data_info'
+    # 主键
+    id = Column(Integer, primary_key=True)
+    # 日期
+    date = Column(Date())
+    # 昨收
+    close = Column(Float)
+    # 代码
+    code = Column(String(50), unique=True)
+    # 股票简称
+    share_name = Column(String(50))
+    # 最新价
+    newest = Column(Float)
+    # 最高价
+    high = Column(Float)
+    # 最低价
+    low = Column(Float)
+    # 成交量 单位：股
+    volume = Column(Float)
+    # 成交额
+    turn_over = Column(Float)
+    # 今开
+    open = Column(Float)
+    # 买进
+    buy_in = Column(Float)
+    # 卖出
+    sell_out = Column(Float)
+    # 涨跌额
+    change_amount = Column(Float)
+    # 涨跌幅
+    change_rate = Column(Float)
+
+    def __repr__(self):
+        return "<StockDataInfo(code='%s', share_name='%s', newest='%s')>" % (
+            self.code, self.share_name, self.newest)

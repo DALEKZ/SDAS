@@ -20,9 +20,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_util/stock_base_data_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_util/stock_base_data_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/stock_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/stock_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/sql_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql/sql_main.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,8 +57,8 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,6 +68,18 @@
       <recent name="D:\PycharmProjects\SDAS" />
       <recent name="E:\PycharmProjects\SDAS\sql" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.stock_base_data_script">
     <configuration name="sql_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -179,7 +190,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617804153779</updated>
       <workItem from="1617804154970" duration="1673000" />
-      <workItem from="1618229107013" duration="13569000" />
+      <workItem from="1618229107013" duration="13846000" />
+      <workItem from="1618316743330" duration="3190000" />
     </task>
     <servers />
   </component>
@@ -191,12 +203,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1618304714370">
@@ -224,10 +237,26 @@
     </state>
     <state x="2637" y="308" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1618281098734" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_util/stock_base_data_script.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data_util/stock_base_data_script.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SDAS$stock_base_data_script.coverage" NAME="stock_base_data_script Coverage Results" MODIFIED="1618302247112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_util" />
-    <SUITE FILE_PATH="coverage/SDAS$util.coverage" NAME="util Coverage Results" MODIFIED="1617805461960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/SDAS$stock_info.coverage" NAME="stock_info Coverage Results" MODIFIED="1618236861322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/SDAS$sql_main.coverage" NAME="sql_main Coverage Results" MODIFIED="1618240355465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" />
+    <SUITE FILE_PATH="coverage/SDAS$util.coverage" NAME="util Coverage Results" MODIFIED="1617805461960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SDAS$stock_base_data_script.coverage" NAME="stock_base_data_script Coverage Results" MODIFIED="1618324235899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_util" />
+    <SUITE FILE_PATH="coverage/SDAS$stock_info.coverage" NAME="stock_info Coverage Results" MODIFIED="1618236861322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
   </component>
 </project>

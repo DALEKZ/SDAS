@@ -1,3 +1,5 @@
+from json import JSONDecodeError
+
 import akshare as ak
 import pandas as pd
 from models.stock_info import StockBaseInfo
@@ -61,19 +63,24 @@ def get_sh_stock_by_indictor(indictor: str):
     elif indictor == '科创板':
         for row in stock_info_sh_name_code.iterrows():
             sbi_list.append(StockBaseInfo(code=row[1]['COMPANY_CODE'],
-                                          board='科创板', share_type="", share_name=row[1]['COMPANY_ABBR'],
+                                          board='科创板', share_type="A", share_name=row[1]['COMPANY_ABBR'],
                                           exchange="sh", listing_date=row[1]['LISTING_DATE']))
         return sbi_list
 
 
 def main():
     dao = BaseSQL()
-    # sbi_list = get_sh_stock_by_indictor("主板A股")
-    sbi_list_B = get_sh_stock_by_indictor("主板B股")
-    sbi_list_c = get_sh_stock_by_indictor("科创板")
+    sbi_list1 = get_sh_stock_by_indictor("主板A股")
+    sbi_list2 = get_sh_stock_by_indictor("主板B股")
+    sbi_list3 = get_sh_stock_by_indictor("科创板")
+    sbi_list4 = get_sz_stock_by_indictor("B股列表")
+    sbi_list5 = get_sz_stock_by_indictor("A股列表")
 
-    dao.insert_multi(sbi_list_B)
-    dao.insert_multi(sbi_list_c)
+    dao.insert_multi(sbi_list1)
+    dao.insert_multi(sbi_list2)
+    dao.insert_multi(sbi_list3)
+    dao.insert_multi(sbi_list4)
+    dao.insert_multi(sbi_list5)
 
 
 if __name__ == '__main__':

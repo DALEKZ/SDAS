@@ -2,7 +2,7 @@ from json import JSONDecodeError
 
 import akshare as ak
 import pandas as pd
-from models.stock_info import StockBaseInfo
+from models.stock_class import StockBaseInfo
 from sql.sql_main import *
 
 pd.set_option('display.max_columns', None)

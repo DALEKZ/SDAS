@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from models.stock_info import Base, StockBaseInfo
+from models.stock_class import Base, StockBaseInfo
 
 
 class BaseSQL():
